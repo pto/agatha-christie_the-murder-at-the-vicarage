@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-24.xhtml">
+		<ignore>
+			<code>y-035</code>
+			<reason>Single letters have been used in an intentionally misspelled letter.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
