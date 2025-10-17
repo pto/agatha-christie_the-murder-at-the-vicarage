@@ -73,7 +73,7 @@ footer{
 #chapter-26 blockquote header p:last-of-type{
 	font-style: italic;
 	margin-bottom: .5em;
-	text-align: left;
+	text-align: initial;
 }
 
 #chapter-26 ul{
