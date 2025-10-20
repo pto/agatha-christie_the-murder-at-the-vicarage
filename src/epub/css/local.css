@@ -34,6 +34,10 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
+#dedication b{
+	font-size: larger;
+}
+
 /* Begin Figures */
 figure{
 	break-inside: avoid;
