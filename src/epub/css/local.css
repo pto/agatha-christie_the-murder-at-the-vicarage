@@ -66,28 +66,30 @@ footer{
 /* end letters */
 
 /* Begin bespoke styling */
-#chapter-22 blockquote header p{
-	font-size: larger;
+#chapter-22 blockquote header,
+#chapter-26 blockquote header p:first-of-type{
 	font-variant: small-caps;
-	margin-bottom: .5em;
-	text-align: center;
-	text-indent: 0;
 }
 
 #chapter-26 blockquote header p:last-of-type{
 	font-style: italic;
-	margin-bottom: .5em;
+	margin-bottom: 1em;
 	text-align: initial;
 }
 
-#chapter-26 ul{
+#chapter-26 ol{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-#chapter-26 ul li p{
+#chapter-26 ol li p{
 	padding-left: 1em;
 	text-indent: -1em;
+}
+
+#chapter-26 blockquote > p:last-child{
+	margin-top: 1em;
+	text-indent: 0;
 }
 /* end bespoke */
